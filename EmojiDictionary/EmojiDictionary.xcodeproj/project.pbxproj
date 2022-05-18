@@ -17,6 +17,8 @@
 		4485A51A24ED7DDC0051EF3D /* EmojiCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4485A51924ED7DDC0051EF3D /* EmojiCollectionViewHeader.swift */; };
 		5A98BFD124CF8C4400EBFD72 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98BFD024CF8C4400EBFD72 /* EmojiCollectionViewCell.swift */; };
 		5A98BFD324CF8CB700EBFD72 /* EmojiCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A98BFD224CF8CB700EBFD72 /* EmojiCollectionViewController.swift */; };
+		D2D9349328359BDF00772ADA /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9349228359BDF00772ADA /* Section.swift */; };
+		D2D934962835A50C00772ADA /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D934952835A50C00772ADA /* Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		4485A51924ED7DDC0051EF3D /* EmojiCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewHeader.swift; sourceTree = "<group>"; };
 		5A98BFD024CF8C4400EBFD72 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
 		5A98BFD224CF8CB700EBFD72 /* EmojiCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewController.swift; sourceTree = "<group>"; };
+		D2D9349228359BDF00772ADA /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		D2D934952835A50C00772ADA /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		18E8589023A95DC1009A02B5 /* EmojiDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				D2D934942835A4F500772ADA /* Enumerations */,
 				D2D93491283580F700772ADA /* Views */,
 				D2D9348C28357D4700772ADA /* Flows */,
 				D2D9348B28357CE000772ADA /* Models */,
@@ -80,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				18E858A523A95EC7009A02B5 /* Emoji.swift */,
+				D2D9349228359BDF00772ADA /* Section.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				188F675B23AAC17B007E2064 /* AddEditEmojiTableViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D2D934942835A4F500772ADA /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				D2D934952835A50C00772ADA /* Layout.swift */,
+			);
+			path = Enumerations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +216,8 @@
 				18E858A623A95EC7009A02B5 /* Emoji.swift in Sources */,
 				5A98BFD324CF8CB700EBFD72 /* EmojiCollectionViewController.swift in Sources */,
 				18E8589223A95DC1009A02B5 /* AppDelegate.swift in Sources */,
+				D2D934962835A50C00772ADA /* Layout.swift in Sources */,
+				D2D9349328359BDF00772ADA /* Section.swift in Sources */,
 				4485A51A24ED7DDC0051EF3D /* EmojiCollectionViewHeader.swift in Sources */,
 				18E8589423A95DC1009A02B5 /* SceneDelegate.swift in Sources */,
 			);

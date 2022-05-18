@@ -8,6 +8,10 @@ struct Emoji: Codable, Equatable {
     var description: String
     var usage: String
     
+    var sectionTitle: String {
+        String(name.uppercased().first ?? "?")
+    }
+    
     //MARK: - Methods
     static func ==(lhs: Self, rhs: Self) -> Bool {
         return lhs.symbol == rhs.symbol
